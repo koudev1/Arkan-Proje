@@ -1,0 +1,22 @@
+.sec_three {
+    .col-12 {
+        margin: 0;
+        padding: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .gallery-text {
+        position: absolute;
+        width: calc(100% - 10px);
+        z-index: 1;
+        bottom: 5px;
+        background: transparent linear-gradient(180deg, #00000000 0%, #043156FA 70%) 0% 0% no-repeat padding-box;
+        color: #fff;
+        padding: 15px;
+
+        img{
+            width: 100px;
+        }
+    }
+}

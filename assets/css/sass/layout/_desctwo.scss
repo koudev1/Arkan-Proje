@@ -1,0 +1,28 @@
+.sec_six {
+    h1 {
+        font-weight: bold;
+        color: #0A487A;
+        font-family: "Bukra", sans-serif;
+
+    }
+
+    .sec__text {
+        margin-left: 30px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 20px;
+            height: 20px;
+            background: url(../img/jul.png);
+            margin-top: 5px;
+            left: 0;
+        }
+
+        h5 {
+            font-weight: bold;
+            font-family: "Bukra", sans-serif;
+        }
+    }
+}

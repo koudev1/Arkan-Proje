@@ -1,0 +1,20 @@
+.sec_two {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    @media (max-width: 768px) {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    h1 {
+        font-weight: bold;
+        color: #0B4E86;
+        font-family: "Bukra", sans-serif;
+    }
+
+    p {
+        font-family: "Bukra", sans-serif;
+        color: #646464;
+    }
+}

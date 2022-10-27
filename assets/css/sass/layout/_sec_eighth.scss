@@ -1,0 +1,28 @@
+.sec_eighth {
+    background: #ECECEC;
+    // margin-top: 100px;
+    // margin-bottom: 100px;
+    padding: 100px 100px;
+
+    @media (max-width: 768px) {
+        padding: 10px 10px;
+    }
+
+    h5 {
+        font-weight: bold;
+        color: #236194;
+
+    }
+
+    .btn__costim {
+        background: #005495;
+        color: #fff;
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+
+    .form-control{
+        border: none;
+        border-radius: 6px;
+    }
+}

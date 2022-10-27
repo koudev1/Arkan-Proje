@@ -1,0 +1,46 @@
+.sec_four {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    h1 {
+        color: #19466B;
+        @media (max-width: 768px) {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
+    h3{
+        @media (max-width: 768px) {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    .tabo {
+        font-weight: bold;
+        border-radius: 12px 12px 0 0;
+        border: 0;
+        background: transparent linear-gradient(180deg, #2E6DA1 0%, #1A4A74 100%) 0% 0% no-repeat padding-box;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    .tabi {
+        background-color: #fff;
+        padding: 20px 0;
+        border-radius: 0 0 12px 12px;
+        box-shadow: 0 2px 24px 0 #11111126;
+    }
+
+    .tabitwo {
+        margin-top: 10px;
+        background-color: #fff;
+        padding: 20px 0;
+        border-radius: 12px;
+        box-shadow: 0 2px 24px 0 #11111126;
+    }
+
+
+
+}
